@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&family=Short+Stack&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
 </head>
 <body>
-    <h1>TIC-TAC-TOE GAME</h1>
+    <section>
+        <div class="game-status">
+            <p class="player-x">
+                <span class="x">X</span>
+                <span class="x-score">0</span>
+            </p>
+            <p class="player-tie">
+                <span class="tie">Tie</span>
+                <span class="tie-score">0</span>
+            </p>
+            <p class="player-o">
+                <span class="o">O</span>
+                <span class="o-score">0</span>
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="game-board">
+            <div data-index="0" class="square top-row left-column"></div>
+            <div data-index="1" class="square top-row"></div>
+            <div data-index="2" class="square top-row right-column"></div>
+            <div data-index="3" class="square left-column"></div>
+            <div data-index="4" class="square"></div>
+            <div data-index="5" class="square right-column"></div>
+            <div data-index="6" class="square bottom-row left-column"></div>
+            <div data-index="7" class="square bottom-row"></div>
+            <div data-index="8" class="square bottom-row right-column"></div>
+        </div>
+    </section>
+    <section>
+        <p class="message"></p>
+    </section>
+    <section>
+        <button class="game-btn">Play again</button>
+    </section>
+
 </body>
 </html>
