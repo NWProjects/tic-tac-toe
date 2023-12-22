@@ -9,7 +9,7 @@ Tic Tac Toe is a universally cherished classic game. The objective is simple: be
 ```zsh
 $ git clone tic-tac-toe
 $ cd tic-tac-toe
-$ node app.js
+$ open index.html
 ```
  ![screenshot of my project](3E6E806C-1E10-416E-8B6F-7B8A23ED55E6.png)
 
