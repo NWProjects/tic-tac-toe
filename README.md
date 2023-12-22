@@ -1,7 +1,3 @@
-# This is my README
-
-# url: https://nwprojects.github.io/tic-tac-toe/
-
 # Tic Tac Toe
 Tic Tac Toe is a universally cherished classic game. The objective is simple: be the first to align three of your marks, whether horizontally, vertically, or diagonally, to win. As a browser-based version, you can relish this timeless game anytime and anywhere.
 
