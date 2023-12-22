@@ -12,7 +12,9 @@ $ git clone tic-tac-toe
 $ cd tic-tac-toe
 $ open index.html
 ```
- ![screenshot of my project](3E6E806C-1E10-416E-8B6F-7B8A23ED55E6.png)
+- Screenshot of my project:
+ ![screenshot of my project]
+ (3E6E806C-1E10-416E-8B6F-7B8A23ED55E6.png)
 
 ## :pencil2: Planning & Problem Solving
 - The project development involves first defining the basic requirements, quickly prototyping, then progressing through HTML, CSS, and JavaScript development, with ongoing testing for a streamlined process.
