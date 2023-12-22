@@ -1,5 +1,5 @@
 # Tic Tac Toe
-Tic Tac Toe is a universally cherished classic game. The objective is simple: be the first to align three of your marks, whether horizontally, vertically, or diagonally, to win. As a browser-based version, you can enjoy this timeless game anytime and anywhere.
+Tic Tac Toe is a universally cherished classic game for two people. The objective is simple: be the first to align three of your marks, whether horizontally, vertically, or diagonally, to win. As a browser-based version, you can enjoy this timeless game anytime and anywhere.
 
 ## :computer: 
 [https://nwprojects.github.io/tic-tac-toe/](#) to see my live project!
@@ -29,6 +29,6 @@ Reflecting on the development of the Tic Tac Toe game, a key takeaway would be t
 
 ## :white_check_mark: Future features
 Cool things I would add if I can keep working on this:
-- Incorporate Animations
-- Implement Sound Effects
-- Introduce Single Player Mode
+- Incorporate animations
+- Implement sound effects
+- Introduce single player mode against AI
