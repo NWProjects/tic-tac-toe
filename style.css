@@ -25,6 +25,7 @@ h1 {
     justify-content: center;
     gap: 80px;
     margin-bottom: 20px;
+    color: gray;
 }
 
 .player-x{

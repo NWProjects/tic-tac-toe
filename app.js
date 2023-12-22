@@ -15,6 +15,9 @@ const xScore = document.querySelector('.x-score');
 const oScore = document.querySelector('.o-score');
 const tieScore = document.querySelector('.tie-score');
 const messageElement = document.querySelector('.message');
+const xElement = document.querySelector('.player-x');
+const oElement = document.querySelector('.player-o');
+
 
 // == setup event listeners
 for (const square of squares) {
@@ -96,10 +99,19 @@ function checkWinner(){
 }
 
 function switchPlayer(){
+    xScore.style.color = 'gray'
+    oScore.style.color = 'gray'
+    xElement.style.color = 'gray'
+    oElement.style.color = 'gray'
+
     if(currentPlayer === playerX){
         currentPlayer = playerO
+        oScore.style.color = 'white'
+        oElement.style.color = 'white'
     }else{
         currentPlayer = playerX
+        xScore.style.color = 'white'
+        xElement.style.color = 'white'
     }
 }
 
